@@ -1,0 +1,11 @@
+title: News
+---
+<div class="highlight-box">
+  <h2>Featured </h2>
+  <p>Here is my most recent or significant publication.</p>
+</div>
+<h2>All Publications</h2>
+<ul>
+  <li>Publication 1</li>
+  <li>Publication 2</li>
+</ul>
