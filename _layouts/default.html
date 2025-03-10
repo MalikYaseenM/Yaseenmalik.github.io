@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <body>
-    {% include header.html %}
-    <div class="container">
-        {{ content }}
-    </div>
-</body>
 <head>
-  {% include head.html %}
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@800;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  {{ content }}
+  <nav>
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/publications">Publications</a></li>
+    </ul>
+  </nav>
+  <div class="content-box">
+    {{ content }}
+  </div>
 </body>
 </html>
