@@ -7,6 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@800;700&display=swap" rel="stylesheet">
 </head>
 <body>
+  {% include header.html %}
   <nav>
     <ul>
       <li><a href="/">HOME</a></li>
@@ -18,5 +19,9 @@
   <div class="content-box">
     {{ content }}
   </div>
+ </div>
+  
+  {% include footer.html %}
+  
 </body>
 </html>
